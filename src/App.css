@@ -22,6 +22,321 @@
   font-size: large;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+button a{
+  text-decoration: none;
+}
+
+
+.main{
+  width: 100%;
+  height: 845px;
+}
+
+.nav{
+  font-weight:600;
+  position: absolute;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 50px;
+  padding-left: 30px;
+  margin-top: 37px;
+  overflow: hidden;
+  float: left;
+}
+.nav p{
+  display: inline-block;
+  margin-left: 33px;
+  cursor: pointer;
+}
+
+.nav img{
+  width: 104px;
+  height: 37px;
+ }
+
+
+.othernav{
+  font-weight:600;
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 50px;
+  right: 30px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.othernav p{
+  display: inline-block;
+  margin-right: 15px;
+  opacity: .7;
+}
+
+.othernav button{
+  background-color: #ff0046;
+  width: 126px;
+  height: 40px;
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.othernav button a{
+  text-decoration: none;
+  color: white;
+}
+
+.vIcon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 60px;
+  width: 40%;
+  font-weight:600;
+}
+.vIcon img{
+  margin-top: -56%;
+  margin-left: 4%;
+  width: 37px;
+  height: 37px;
+  position: absolute;
+}
+.vIcon p{
+  margin-top: -57%;
+  margin-left: 9%;
+  font-size: 46px;
+  width: 318px;
+  height: 35px;
+  color: white;
+  position: absolute;
+}
+.vIcon .biLine{
+  margin-top: -650px;
+  width: 544px;
+  height: 21px;
+  font-size:20px;
+  display: block;
+  margin-left: 0px;
+}
+
+.HeroImage button{
+  background-color: #ffffff;
+  width: 129px;
+  height: 35px;
+  text-decoration: none;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  display: block;
+  margin-left: 11%;
+  margin-right: auto;
+  position: absolute;
+  margin-top: -46.5%;
+}
+.HeroImage img{
+  width: 896px;
+  height: 540px;
+  margin-left: -20%;
+  position: absolute;
+  margin-top: -41.8%;
+}
+
+.middle{
+  background-color: #465371;
+  width: 100%;
+  height: 553px;
+  margin-top: -27px;
+}
+
+.middle p{
+  display: block;
+  font-weight: 400;
+  font-size: 23px;
+  color: white;
+  position: absolute;
+  margin-top: 74px;
+  margin-left: 18.5%;
+}
+
+.section1{
+}
+.section2{
+  margin-top: -463px;
+  margin-left: 280px;
+}
+.section3{
+  margin-top: -463px;
+  margin-left: 570px;
+}
+.section1 .title, 
+.section2 .title,
+.section3 .title{
+  margin-top: 178px;
+  margin-left: 281px;
+  width: 104px;
+  height: 12px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.section2 .title{
+  margin-left: 300px;
+}
+
+.section3 .title{
+  width: 124px;
+}
+
+.section1 .bio, 
+.section2 .bio,
+.section3 .bio{
+  margin-top: 211px;
+  width: 220px;
+  height: 73px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #aab4c8;
+}
+.section1 .best, 
+.section2 .best,
+.section3 .best{
+  margin-top: 333px;
+  margin-left: 300px;
+  width: 66px;
+  height: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 27px;
+  color: #aab4c8;
+}
+.section1 .list, 
+.section2 .list,
+.section3 .list{
+  list-style-type: none;
+  width: 128px;
+  height: 36px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 359px;
+  margin-left: 269px;
+}
+.section2 .list,
+.section3 .list{
+  width: 195px;
+}
+
+
+.section1 button, 
+.section2 button,
+.section3 button{
+  width: 121px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: #ff0040;
+  color: white;
+  margin-top: 428px;
+  margin-left: 273px;
+  border: none;
+}
+
+.chart{
+  width: 100%;
+  height: 860px;
+}
+
+.chart1 img{
+  width: 302px;
+  height: 236px;
+  margin-top: 114px;
+  margin-left: 169px;
+}
+.chart1 .heading{
+  position: absolute;
+  height: 14px;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 562px;
+  margin-top: -220px;
+}
+.chart1 .para{
+  position: absolute;
+  width: 510px;
+  height: 124px;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-left: 561px;
+  margin-top: -151px;
+
+}
+
+.chart2 img{
+  width: 220px;
+  height: 256px;
+  margin-left: 825px;
+  margin-top: 124px; 
+}
+.chart2 .heading{
+  position: absolute;
+  height: 14px;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 169px;
+  margin-top: -232px;
+}
+.chart2 .para{
+  position: absolute;
+  width: 510px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: 169px;
+  margin-top: -160px;
+}
+
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color: #e1e5ec;
+}
+.footer .first{
+  position: absolute;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 161px;
+}
+.footer .side{
+  position: absolute;
+  font-size: 12px;
+  margin-left: 750px;
+  margin-top: 8px;
+}
+.footer .side p{
+  display: inline-block;
+  padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

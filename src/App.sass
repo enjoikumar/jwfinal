@@ -1,298 +1,622 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  /*background-color: papayawhip;*/
-}
+.App
+  text-align: center
 
-button a {
-  text-decoration: none;
-}
+.App-logo
+  animation: App-logo-spin infinite 20s linear
+  height: 80px
 
-.main {
-  width: 100%;
-  height: 845px;
-}
+.App-header
+  background-color: #222
+  height: 150px
+  padding: 20px
+  color: white
 
-.nav {
-  font-weight: 600;
-  position: absolute;
-  color: white;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 50px;
-  padding-left: 30px;
-  margin-top: 37px;
-  overflow: hidden;
-  float: left;
-  p {
-    display: inline-block;
-    margin-left: 33px;
-    cursor: pointer;
-  }
-  img {
-    width: 104px;
-    height: 37px;
-  }
-}
+.App-title
+  font-size: 1.5em
 
-.othernav {
-  font-weight: 600;
-  position: absolute;
-  color: white;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 50px;
-  right: 30px;
-  margin-top: 35px;
-  cursor: pointer;
-  p {
-    display: inline-block;
-    margin-right: 15px;
-    opacity: .7;
-  }
-  button {
-    background-color: #ff0046;
-    width: 126px;
-    height: 40px;
-    text-decoration: none;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    a {
-      text-decoration: none;
-      color: white;
-    }
-  }
-}
+.App-intro
+  font-size: large
 
-.vIcon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 60px;
-  width: 40%;
-  font-weight: 600;
-  img {
-    margin-top: -56%;
-    margin-left: 4%;
-    width: 37px;
-    height: 37px;
-    position: absolute;
-  }
-  p {
-    margin-top: -57%;
-    margin-left: 9%;
-    font-size: 46px;
-    width: 318px;
-    height: 35px;
-    color: white;
-    position: absolute;
-  }
-  .biLine {
-    margin-top: -650px;
-    width: 544px;
-    height: 21px;
-    font-size: 20px;
-    display: block;
-    margin-left: 0px;
-  }
-}
+body
+  margin: 0
+  padding: 0
+  font-family: sans-serif
+  font-family: 'Open Sans', sans-serif
 
-.HeroImage {
-  button {
-    background-color: #ffffff;
-    width: 129px;
-    height: 35px;
-    text-decoration: none;
-    color: black;
-    border: none;
-    border-radius: 3px;
-    display: block;
-    margin-left: 11%;
-    margin-right: auto;
-    position: absolute;
-    margin-top: -46.5%;
-  }
-  img {
-    width: 896px;
-    height: 540px;
-    margin-left: -20%;
-    position: absolute;
-    margin-top: -41.8%;
-  }
-}
+button a
+  text-decoration: none
 
-.middle {
-  background-color: #465371;
-  width: 100%;
-  height: 553px;
-  margin-top: -27px;
-  p {
-    display: block;
-    font-weight: 400;
-    font-size: 23px;
-    color: white;
-    position: absolute;
-    margin-top: 74px;
-    margin-left: 18.5%;
-  }
-}
+.main
+  width: 100%
+  height: 845px
 
-.section1 {}
+.nav
+  font-weight: 600
+  position: absolute
+  color: white
+  font-size: 13px
+  font-weight: 400
+  line-height: 50px
+  padding-left: 30px
+  margin-top: 37px
+  overflow: hidden
+  float: left
+  p
+    display: inline-block
+    margin-left: 33px
+    cursor: pointer
+  img
+    width: 104px
+    height: 37px
 
-.section2 {
-  margin-top: -463px;
-  margin-left: 280px;
-}
+.othernav
+  font-weight: 600
+  position: absolute
+  color: white
+  font-size: 12px
+  font-weight: 400
+  line-height: 50px
+  right: 30px
+  margin-top: 35px
+  cursor: pointer
+  p
+    display: inline-block
+    margin-right: 15px
+    opacity: .7
+  button
+    background-color: #ff0046
+    width: 126px
+    height: 40px
+    text-decoration: none
+    color: white
+    border: none
+    border-radius: 3px
+    a
+      text-decoration: none
+      color: white
 
-.section3 {
-  margin-top: -463px;
-  margin-left: 570px;
-}
+.vIcon
+  display: block
+  margin-left: auto
+  margin-right: auto
+  padding-left: 60px
+  width: 40%
+  font-weight: 600
+  img
+    margin-top: -56%
+    margin-left: 4%
+    width: 37px
+    height: 37px
+    position: absolute
+  p
+    margin-top: -57%
+    margin-left: 9%
+    font-size: 46px
+    width: 318px
+    height: 35px
+    color: white
+    position: absolute
+  .biLine
+    margin-top: -650px
+    width: 544px
+    height: 21px
+    font-size: 20px
+    display: block
+    margin-left: 0px
 
-.section1 .title, .section2 .title, .section3 .title {
-  margin-top: 178px;
-  margin-left: 281px;
-  width: 104px;
-  height: 12px;
-  font-size: 15px;
-  font-weight: 400;
-}
+.HeroImage
+  button
+    background-color: #ffffff
+    width: 129px
+    height: 35px
+    text-decoration: none
+    color: black
+    border: none
+    border-radius: 3px
+    display: block
+    margin-left: 11%
+    margin-right: auto
+    position: absolute
+    margin-top: -46.5%
+  img
+    width: 896px
+    height: 540px
+    margin-left: -20%
+    position: absolute
+    margin-top: -41.8%
 
-.section2 .title {
-  margin-left: 300px;
-}
+.middle
+  background-color: #465371
+  width: 100%
+  height: 553px
+  margin-top: -27px
+  p
+    display: block
+    font-weight: 400
+    font-size: 23px
+    color: white
+    position: absolute
+    margin-top: 74px
+    margin-left: 18.5%
 
-.section3 .title {
-  width: 124px;
-}
+.section1
 
-.section1 .bio, .section2 .bio, .section3 .bio {
-  margin-top: 211px;
-  width: 220px;
-  height: 73px;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 19px;
-  color: #aab4c8;
-}
+.section2
+  margin-top: -463px
+  margin-left: 280px
 
-.section1 .best, .section2 .best, .section3 .best {
-  margin-top: 333px;
-  margin-left: 300px;
-  width: 66px;
-  height: 12px;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 27px;
-  color: #aab4c8;
-}
+.section3
+  margin-top: -463px
+  margin-left: 570px
 
-.section1 .list, .section2 .list, .section3 .list {
-  list-style-type: none;
-  width: 128px;
-  height: 36px;
-  font-size: 14px;
-  color: #ffffff;
-  font-weight: 400;
-  margin-top: 359px;
-  margin-left: 269px;
-}
+.section1 .title, .section2 .title, .section3 .title
+  margin-top: 178px
+  margin-left: 281px
+  width: 104px
+  height: 12px
+  font-size: 15px
+  font-weight: 400
 
-.section2 .list, .section3 .list {
-  width: 195px;
-}
+.section2 .title
+  margin-left: 300px
 
-.section1 button, .section2 button, .section3 button {
-  width: 121px;
-  height: 35px;
-  border-radius: 3px;
-  background-color: #ff0040;
-  color: white;
-  margin-top: 428px;
-  margin-left: 273px;
-  border: none;
-}
+.section3 .title
+  width: 124px
 
-.chart {
-  width: 100%;
-  height: 860px;
-}
+.section1 .bio, .section2 .bio, .section3 .bio
+  margin-top: 211px
+  width: 220px
+  height: 73px
+  font-size: 15px
+  font-weight: 400
+  line-height: 19px
+  color: #aab4c8
 
-.chart1 {
-  img {
-    width: 302px;
-    height: 236px;
-    margin-top: 114px;
-    margin-left: 169px;
-  }
-  .heading {
-    position: absolute;
-    height: 14px;
-    font-size: 17px;
-    font-weight: 400;
-    margin-left: 562px;
-    margin-top: -220px;
-  }
-  .para {
-    position: absolute;
-    width: 510px;
-    height: 124px;
-    font-size: 15px;
-    line-height: 22px;
-    font-weight: 400;
-    margin-left: 561px;
-    margin-top: -151px;
-  }
-}
+.section1 .best, .section2 .best, .section3 .best
+  margin-top: 333px
+  margin-left: 300px
+  width: 66px
+  height: 12px
+  font-size: 14px
+  font-weight: bold
+  line-height: 27px
+  color: #aab4c8
 
-.chart2 {
-  /*float: right;*/
-  img {
-    width: 220px;
-    height: 256px;
-    margin-left: 825px;
-    margin-top: 124px;
-  }
-  .heading {
-    position: absolute;
-    height: 14px;
-    font-size: 17px;
-    font-weight: 400;
-    margin-left: 169px;
-    margin-top: -232px;
-  }
-  .para {
-    position: absolute;
-    width: 510px;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 22px;
-    margin-left: 169px;
-    margin-top: -160px;
-  }
-}
+.section1 .list, .section2 .list, .section3 .list
+  list-style-type: none
+  width: 128px
+  height: 36px
+  font-size: 14px
+  color: #ffffff
+  font-weight: 400
+  margin-top: 359px
+  margin-left: 269px
 
-.footer {
-  width: 100%;
-  height: 50px;
-  background-color: #e1e5ec;
-  .first {
-    position: absolute;
-    font-size: 12px;
-    margin-top: 20px;
-    margin-left: 161px;
-  }
-  .side {
-    position: absolute;
-    font-size: 12px;
-    margin-left: 750px;
-    margin-top: 8px;
-    p {
-      display: inline-block;
-      padding-left: 30px;
-    }
-  }
-}
+.section2 .list, .section3 .list
+  width: 195px
+
+.section1 button, .section2 button, .section3 button
+  width: 121px
+  height: 35px
+  border-radius: 3px
+  background-color: #ff0040
+  color: white
+  margin-top: 428px
+  margin-left: 273px
+  border: none
+
+.chart
+  width: 100%
+  height: 860px
+
+.chart1
+  img
+    width: 302px
+    height: 236px
+    margin-top: 114px
+    margin-left: 169px
+  .heading
+    position: absolute
+    height: 14px
+    font-size: 17px
+    font-weight: 400
+    margin-left: 562px
+    margin-top: -220px
+  .para
+    position: absolute
+    width: 510px
+    height: 124px
+    font-size: 15px
+    line-height: 22px
+    font-weight: 400
+    margin-left: 561px
+    margin-top: -151px
+
+.chart2
+  img
+    width: 220px
+    height: 256px
+    margin-left: 825px
+    margin-top: 124px
+  .heading
+    position: absolute
+    height: 14px
+    font-size: 17px
+    font-weight: 400
+    margin-left: 169px
+    margin-top: -232px
+  .para
+    position: absolute
+    width: 510px
+    font-size: 15px
+    font-weight: 400
+    line-height: 22px
+    margin-left: 169px
+    margin-top: -160px
+
+.footer
+  width: 100%
+  height: 50px
+  background-color: #e1e5ec
+  .first
+    position: absolute
+    font-size: 12px
+    margin-top: 20px
+    margin-left: 161px
+  .side
+    position: absolute
+    font-size: 12px
+    margin-left: 750px
+    margin-top: 8px
+    p
+      display: inline-block
+      padding-left: 30px
+
+@keyframes App-logo-spin
+  from
+    transform: rotate(0deg)
+
+  to
+    transform: rotate(360deg)
+
+
+@media only screen and (width: 768px)
+  html, body
+    max-width: 100%
+    overflow-x: hidden
+  .nav
+    font-size: 10px
+    img
+      width: 60px
+      height: 30px
+  .othernav
+    font-size: 10px
+    margin-top: 5%
+    margin-left: 10%
+    button
+      position: absolute
+      width: 80px
+      height: 25px
+      font-size: 9px
+      margin-left: -31%
+      margin-top: 16%
+  .main
+    height: 800px
+  .vIcon
+    img
+      margin-top: -90%
+      margin-left: 2%
+    p
+      margin-top: -91%
+      margin-left: 12%
+      font-size: 36px
+    .biLine
+      margin-top: -83%
+      font-size: 16px
+      margin-left: -3%
+  .HeroImage
+    button
+      margin-top: -76.5%
+    img
+      width: 80%
+      height: 500px
+      margin-left: -24%
+      margin-top: -70%
+  .middle p
+    font-size: 20px
+    margin-left: 7%
+  .section2
+    margin-top: -463px
+    margin-left: 280px
+  .section3
+    margin-top: -463px
+    margin-left: 570px
+  .section1 .title, .section2 .title, .section3 .title
+    margin-top: 22%
+    margin-left: 5%
+    font-size: 12px
+  .section2 .title
+    margin-left: 0%
+  .section3 .title
+    margin-left: -4%
+  .section1 .bio, .section2 .bio, .section3 .bio
+    margin-top: 26%
+    width: 200px
+    font-size: 12px
+    margin-left: 5%
+  .section2 .bio
+    margin-left: 0%
+  .section3 .bio
+    margin-left: -4%
+    width: 180px
+  .section1 .best, .section2 .best, .section3 .best
+    margin-top: 40%
+    margin-left: 5%
+    font-size: 12px
+  .section2 .best
+    margin-left: 0%
+  .section3 .best
+    margin-left: -4%
+  .section1 .list, .section2 .list, .section3 .list
+    width: 128px
+    height: 36px
+    font-size: 12px
+    margin-top: 45%
+    margin-left: 5%
+  .section2 .list
+    width: 195px
+    margin-left: 0%
+  .section3 .list
+    width: 195px
+    margin-left: -4%
+  .section1 button, .section2 button, .section3 button
+    width: 121px
+    height: 35px
+    margin-top: 428px
+    margin-left: 5%
+  .section2 button
+    margin-left: 0%
+  .section3 button
+    margin-left: -14%
+  .chart1
+    img
+      margin-top: 10%
+      margin-left: 5%
+    .heading
+      margin-left: 50%
+      font-size: 15px
+    .para
+      width: 40%
+      font-size: 12px
+      margin-left: 50%
+      margin-top: -25%
+  .chart2
+    img
+      margin-left: 60%
+    .heading
+      font-size: 15px
+      margin-left: 10%
+    .para
+      width: 40%
+      font-size: 12px
+      margin-left: 10%
+      margin-top: -26%
+  .footer
+    display: none
+
+@media only screen and (max-width: 414px)
+  html, body
+    max-width: 100%
+    overflow-x: hidden
+  .nav img
+    width: 60px
+    height: 30px
+  .othernav
+    margin-top: 16%
+    margin-left: 9%
+    button
+      width: 80px
+      height: 25px
+      font-size: 9px
+      margin-left: 38%
+  .main
+    height: 600px
+  .vIcon
+    img
+      width: 7%
+      height: 37px
+      margin-top: -98%
+      margin-left: -10%
+    p
+      margin-top: -98%
+      margin-left: 0%
+      font-size: 24px
+    .biLine
+      margin-top: -88%
+      margin-left: -26%
+      font-size: 14px
+    button
+      width: 80px
+      height: 25px
+      font-size: 9px
+      margin-top: -80%
+      margin-left: 3%
+  .HeroImage img
+    width: 75%
+    height: 250px
+    margin-top: -65%
+    margin-left: -25%
+  .middle
+    .heading
+      width: 80%
+      font-size: 18px
+      margin-left: 10%
+    height: 950px
+  .section1
+    .title, .bio
+      margin-left: 10%
+    .best
+      margin-left: 10%
+      margin-top: 70%
+    .list
+      margin-left: 10%
+      margin-top: 78%
+    button
+      margin-top: 82%
+      width: 80px
+      height: 25px
+      font-size: 9px
+  .section2
+    .title
+      margin-left: -57.5%
+      margin-top: 120%
+    .bio
+      margin-left: -57.5%
+      margin-top: 129%
+    .best
+      margin-left: -57.5%
+      margin-top: 154%
+    .list
+      margin-left: -57.5%
+      margin-top: 162.5%
+    button
+      margin-left: -5%
+      margin-top: 510%
+      width: 80px
+      height: 25px
+      font-size: 9px
+  .section3
+    .title
+      margin-left: -128%
+      margin-top: 125%
+    .bio
+      margin-left: -128%
+      margin-top: 134%
+    .best
+      margin-left: -128%
+      margin-top: 160%
+    .list
+      margin-left: -128%
+      margin-top: 169%
+    button
+      margin-top: 710px
+      margin-left: -297px
+      width: 80px
+      height: 25px
+      font-size: 9px
+  .chart1
+    img
+      width: 90%
+      height: 300px
+      margin-left: 5%
+      margin-top: 5%
+    .heading
+      margin-left: 10%
+      margin-top: 0%
+    .para
+      margin-left: 10%
+      margin-top: 10%
+      width: 80%
+  .chart2
+    img
+      width: 90%
+      height: 300px
+      margin-left: 0%
+      margin-top: 65%
+    .heading
+      margin-left: 10%
+      margin-top: 5%
+    .para
+      margin-left: 10%
+      margin-top: 15%
+      width: 80%
+  .footer
+    height: 40px
+    margin-top: 85%
+    .first
+      margin-left: 5%
+      font-size: 8px
+    .side
+      display: none
+
+@media only screen and (width: 375px)
+  .nav
+    font-size: 11px
+    margin-left: -3%
+  .othernav
+    font-size: 10px
+    margin-left: 10%
+    button
+      width: 80px
+      height: 25px
+      font-size: 9px
+      margin-left: 38%
+  .vIcon
+    img, p
+      margin-top: -112%
+    .biLine
+      margin-top: -99%
+      margin-left: -29%
+    button
+      width: 80px
+      height: 25px
+      font-size: 9px
+      margin-top: -80%
+      margin-left: 3%
+  .HeroImage
+    button
+      margin-top: -90%
+    img
+      margin-top: -70%
+      margin-left: -26%
+  .section1
+    .best
+      margin-top: 75%
+    .list
+      margin-top: 82%
+    button
+      margin-top: 84%
+  .section2
+    .title
+      margin-left: -65%
+      margin-top: 140%
+    .bio
+      margin-left: -65%
+      margin-top: 149%
+    .best
+      margin-left: -65%
+      margin-top: 174%
+    .list
+      margin-left: -65%
+      margin-top: 182.5%
+    button
+      margin-top: 730%
+  .section3
+    .title
+      margin-left: -142%
+      margin-top: 145%
+    .bio
+      margin-left: -142%
+      margin-top: 154%
+    .best
+      margin-left: -142%
+      margin-top: 180%
+    .list
+      margin-left: -142%
+      margin-top: 189%
+    button
+      margin-top: 720px
+  .chart1
+    img
+      margin-left: 3%
+    .heading, .para
+      margin-left: 13%
+  .chart2
+    img
+      margin-top: 75%
+    .heading, .para
+      margin-left: 13%
+  .footer
+    margin-top: 90%
+    .first
+      margin-left: 2%
