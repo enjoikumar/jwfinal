@@ -26,3 +26,492 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+
+@media only screen and (width: 768px){
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .nav{
+    font-size: 10px;
+  }
+  .nav img{
+    width: 60px;
+    height: 30px;
+  }
+  .othernav{
+    font-size: 10px;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  .othernav button{
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+    margin-left: -31%;
+    margin-top: 16%;
+  }
+  .main{
+    height: 800px;
+  }
+
+  .vIcon img{
+    margin-top: -90%;
+    margin-left: 2%;
+  }
+
+  .vIcon p{
+    margin-top: -91%;
+    margin-left: 12%;
+    font-size: 36px;
+  }
+  .vIcon .biLine{
+    margin-top: -83%;
+    font-size: 16px;
+    margin-left: -3%;
+  }
+
+  .HeroImage button{
+    margin-top: -76.5%;
+  }
+  .HeroImage img{
+    width: 80%;
+    height: 500px;
+    margin-left: -24%;
+    margin-top: -70%;
+  }
+
+
+  .middle p{
+    font-size: 20px;
+    margin-left: 7%;
+  }
+
+  .section2{
+    margin-top: -463px;
+    margin-left: 280px;
+  }
+  .section3{
+    margin-top: -463px;
+    margin-left: 570px;
+  }
+  .section1 .title, 
+  .section2 .title,
+  .section3 .title{
+    margin-top: 22%;
+    margin-left: 5%;
+    font-size: 12px;
+  }
+  .section2 .title{
+    margin-left: 0%;
+  }
+
+  .section3 .title{
+    margin-left: -4%;
+  }
+
+  .section1 .bio, 
+  .section2 .bio,
+  .section3 .bio{
+    margin-top: 26%;
+    width: 200px;
+    font-size: 12px;
+    margin-left: 5%;
+  }
+  .section2 .bio{
+    margin-left: 0%;
+  }
+  .section3 .bio{
+    margin-left: -4%;
+    width: 180px;
+  }
+
+  .section1 .best, 
+  .section2 .best,
+  .section3 .best{
+    margin-top: 40%;
+    margin-left: 5%;
+    font-size: 12px;
+  }
+  .section2 .best{
+    margin-left: 0%;
+  }
+  .section3 .best{
+    margin-left: -4%;
+  }
+
+  .section1 .list, 
+  .section2 .list,
+  .section3 .list{
+    width: 128px;
+    height: 36px;
+    font-size: 12px;
+    margin-top: 45%;
+    margin-left: 5%;
+  }
+  .section2 .list{
+    width: 195px;
+    margin-left: 0%;
+  }
+  .section3 .list{
+    width: 195px;
+    margin-left: -4%;
+  }
+
+  .section1 button, 
+  .section2 button,
+  .section3 button{
+    width: 121px;
+    height: 35px;
+    margin-top: 428px;
+    margin-left: 5%;
+  }
+
+  .section2 button{
+    margin-left: 0%;
+
+  }
+  .section3 button{
+    margin-left: -14%;
+  }
+
+  .chart1 img{
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  .chart1 .heading{
+    margin-left: 50%;
+    font-size: 15px;
+  }
+  .chart1 .para{
+    width: 40%;
+    font-size: 12px;
+    margin-left: 50%;
+    margin-top: -25%;
+  }
+
+  .chart2 img{
+    margin-left: 60%;
+  }
+  .chart2 .heading{
+    font-size: 15px;
+    margin-left: 10%;
+  }
+  .chart2 .para{
+    width: 40%;
+    font-size: 12px;
+    margin-left: 10%;
+    margin-top: -26%;
+  }
+
+  .footer{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 414px){
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .nav img{
+    width: 60px;
+    height: 30px;
+  }
+  .othernav{
+    margin-top: 16%;
+    margin-left: 9%;
+  }
+  .othernav button{
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+    margin-left: 38%;
+  }
+  .main{
+    height: 600px;
+  }
+
+  .vIcon img{
+    width: 7%;
+    height: 37px;
+    margin-top: -98%;
+    margin-left: -10%;
+  }
+  .vIcon p{
+    margin-top: -98%;
+    margin-left: 0%;
+    font-size: 24px;
+  }
+  .vIcon .biLine{
+    margin-top: -88%;
+    margin-left: -26%;
+    font-size: 14px;
+  }
+  .vIcon button{
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+    margin-top: -80%;
+    margin-left: 3%;
+  }
+
+  .HeroImage img{
+    width: 75%;
+    height: 250px;
+    margin-top: -65%;
+    margin-left: -25%;
+  }
+
+  .middle .heading{
+    width: 80%;
+    font-size: 18px;
+    margin-left: 10%;
+  }
+
+  .middle{
+    height: 950px;
+  }
+  .section1 .title{
+    margin-left: 10%;
+  }
+  .section1 .bio{
+    margin-left: 10%;
+  }
+  .section1 .best{
+    margin-left: 10%;
+    margin-top: 70%;
+  }
+  .section1 .list{
+    margin-left: 10%;
+    margin-top: 78%;
+  }
+  .section1 button{
+    margin-top: 82%;
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+  }
+
+  .section2 .title{
+    margin-left: -57.5%;
+    margin-top: 120%;
+  }
+  .section2 .bio{
+    margin-left: -57.5%;
+    margin-top: 129%;
+  }
+  .section2 .best{
+    margin-left: -57.5%;
+    margin-top: 154%;
+  }
+  .section2 .list{
+    margin-left: -57.5%;
+    margin-top: 162.5%;
+  }
+  .section2 button{
+    margin-left: -5%;
+    margin-top: 510%;
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+  }
+
+  .section3 .title{
+    margin-left: -128%;
+    margin-top: 125%;
+  }
+  .section3 .bio{
+    margin-left: -128%;
+    margin-top: 134%;
+  }
+  .section3 .best{
+    margin-left: -128%;
+    margin-top: 160%;
+  }
+  .section3 .list{
+    margin-left: -128%;
+    margin-top: 169%;
+  }
+  .section3 button{    
+    margin-top: 710px;
+    margin-left: -297px;
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+  }
+
+  .chart1 img{
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .chart1 .heading{
+    margin-left: 10%;
+    margin-top: 0%;
+  }
+  .chart1 .para{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+  }
+
+  .chart2 img{
+    width: 90%;
+    height: 300px;
+    margin-left: 0%;
+    margin-top: 65%;
+  }
+  .chart2 .heading{
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .chart2 .para{
+    margin-left: 10%;
+    margin-top: 15%;
+    width: 80%;
+  }
+
+  .footer{
+    height: 40px;
+    margin-top: 85%;
+  }
+  .footer .first{
+    margin-left: 5%;
+    font-size: 8px;
+  }
+  .footer .side{
+    display: none;
+  }
+
+}
+
+
+@media only screen and (width:375px){
+  .nav{
+    font-size: 11px;
+    margin-left: -3%;
+  }
+  .othernav{
+    font-size: 10px;
+    margin-left: 10%;
+  }
+  .othernav button{
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+    margin-left: 38%;
+  }
+
+  .vIcon img{
+    margin-top: -112%;
+  }
+  .vIcon p{
+    margin-top: -112%;
+  }
+  .vIcon .biLine{
+    margin-top: -99%;
+    margin-left: -29%;
+  }
+  .vIcon button{
+    width: 80px;
+    height: 25px;
+    font-size: 9px;
+    margin-top: -80%;
+    margin-left: 3%;
+  }
+
+  .HeroImage button{
+    margin-top: -90%;
+  }
+  .HeroImage img{
+    margin-top: -70%;
+    margin-left: -26%;
+  }
+
+  .section1 .best{
+    margin-top: 75%;
+  }
+  .section1 .list{
+    margin-top: 82%;
+  }
+  .section1 button{
+    margin-top: 84%;
+  }
+
+  .section2 .title{
+    margin-left: -65%;
+    margin-top: 140%;
+  }
+  .section2 .bio{
+    margin-left: -65%;
+    margin-top: 149%;
+  }
+  .section2 .best{
+    margin-left: -65%;
+    margin-top: 174%;
+  }
+  .section2 .list{
+    margin-left: -65%;
+    margin-top: 182.5%;
+  }
+  .section2 button{
+    margin-top: 730%;
+  }
+
+  .section3 .title{
+    margin-left: -142%;
+    margin-top: 145%;
+  }
+  .section3 .bio{
+    margin-left: -142%;
+    margin-top: 154%;
+  }
+  .section3 .best{
+    margin-left: -142%;
+    margin-top: 180%;
+  }
+  .section3 .list{
+    margin-left: -142%;
+    margin-top: 189%;
+  }
+  .section3 button{    
+    margin-top: 720px;
+  }
+
+  .chart1 img{
+    margin-left: 3%;
+  }
+  .chart1 .heading{
+    margin-left: 13%;
+  }
+  .chart1 .para{
+    margin-left: 13%;
+  }
+
+  .chart2 img{
+    margin-top: 75%;
+  }
+  .chart2 .heading{
+    margin-left: 13%;
+  }
+  .chart2 .para{
+    margin-left: 13%;
+  }
+
+  .footer{
+    margin-top: 90%;
+  }
+  .footer .first{
+    margin-left: 2%;
+  }
+}
+
+
+
+
