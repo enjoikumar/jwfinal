@@ -5,7 +5,11 @@ The project is built on React and used the npm package chokidar for sass compili
 ## Thoughts 
 This project was definitely a challenge and really fun for me. I've listed the triumphs and challeneges below. The fun part was getting things working, those 'aha' moments, and soon after everything was just clicking. I really haven't used react and json, and I do want more experience with that. It showed me a new way to use data, which was similar to an API. 
 It also made me think outside the box, and use new tools. I'm familar with sketch, but sketch for some reason doesn't analyze a psd. In that case I used Avocode to analyze the psd file to find the colors, width's, heights, fonts, and element placing. The second challenging aspect was, at first I thought this was going to be really easy because of all the 'Lorem ipsums', But I then had to analyze the data given to me and brainstorm which text goes where. That was a challenge but in a fun way, like a puzzle. I actually printed out the JSON data and analyzed it that way so I could visually see which elements go where. 
-My final thoughts on this challenge was, if this is a typical day at work, I don't think I'd stop. At one point I completely forgot that this was a challenge and lost track of time because I was enjoying it so much. It really did make me think out the box when it came to design aspects, and structuring react components. 
+My final thoughts on this challenge was, if this is a typical day at work, I don't think I'd stop. At one point I completely forgot that this was a challenge and lost track of time because I was enjoying it so much. It really did make me think out the box when it came to design aspects, and structuring react components.
+
+One last remark: There are two github repos. One with all my commits, and this finalized one. Last night I made a mistake and it broke my app. I restarted, but I wanted to leave the commits so you can track my progress. 
+The original github with the commits: https://github.com/enjoikumar/jw
+The final one which is bundled: https://github.com/enjoikumar/jwfinal
 
 ## Triumphs:
 -Some of my triumphs include getting the components working together and having a sense of the architecture. 
